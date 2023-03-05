@@ -1,0 +1,4 @@
+/vendor
+/var
+.vscode/settings.json
+.phpunit.result.cache
