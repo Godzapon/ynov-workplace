@@ -2,3 +2,4 @@
 /var
 .vscode/settings.json
 .phpunit.result.cache
+.env.local.php
