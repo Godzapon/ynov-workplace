@@ -1,0 +1,21 @@
+App\Entity\User:
+  user_{1..10}:
+    nickname: <name()>
+    email: <email()>
+    password: <password()>
+
+App\Entity\Group:
+  group_A:
+    owner: '@user_1'
+    name: <name()>
+    description: <text()>
+    members: '@user_{1..5}'
+  group_B:
+    owner: '@user_1'
+    name: <name()>
+    description: <text()>
+  group_C:
+    owner: '@user_2'
+    name: <name()>
+    description: <text()>
+
