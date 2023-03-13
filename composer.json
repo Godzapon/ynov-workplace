@@ -7,6 +7,7 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-sodium": "*",
         "api-platform/core": "^3.0",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.8",
