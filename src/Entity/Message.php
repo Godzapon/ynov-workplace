@@ -34,6 +34,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
     uriVariables: [
         'thread_id' => new Link(toProperty: 'thread', fromClass: Thread::class),
     ],
+    security: "is_granted('ROLE_USER')",
     denormalizationContext: ['groups' => ['message:read']]
 )]
 class Message
